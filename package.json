@@ -6,10 +6,7 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jhernandezme/multasgt.git"
-  },
+  "repository": "jhernandezme/multasgt",
   "keywords": [
     "Multas",
     "GT",
@@ -18,6 +15,10 @@
   ],
   "author": "Jorge Hernandez",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "libs/"
+  ],
   "dependencies": {
     "axios": "0.13.1",
     "cheerio": "0.20.0",
